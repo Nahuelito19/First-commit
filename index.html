@@ -3,33 +3,44 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" type="text/css" href="styles.css">
+       <link rel="stylesheet" type="text/css" href="resets.css">
       <title>Mi Primer Sitio Web</title>
    </head>
    <body>
       <header>
-        <h1>JAVIER MILEI ES PRESIDENTE DE LA NACIÓN ARGENTINA</h1>
-        <img src="./milei.jpg"
-        <p>Un profundo sentimiento de esperanza despierta en la mayoria de los Argentinos</p>
+       <div id="titleprin"> 
+        <h1 class="title" id="principal">JAVIER MILEI ES PRESIDENTE DE LA NACIÓN ARGENTINA</h1>
+      </div>
+      <div class="imagen">
+      <img src="./milei.jpg">
+   </div>  
+   <div class="parrafos">
+        <p>Un profundo sentimiento de esperanza despierta en la mayoria de los Argentinos</p>    
+      </div>
       </header>
-      <hr ->
+      <hr -> 
       <main>
          <section>
-            <article>
-               <h2>GANÓ LAS ELECCIONES CON UN 55,89% DE LOS VOTOS</h2>
-               <img src="./ResultadosDeLasVotaciones.jpg"
-               <div> 
+            <article class="separacion">
+               <div class="imagen">
+               <h2 class="title">GANÓ LAS ELECCIONES CON UN 55,89% DE LOS VOTOS</h2>
+               <img src="./ResultadosDeLasVotaciones.jpg">
+               </div>  
+               <div class="parrafos"> 
                <p>¡Batacazo historico para el partido Liberal!. Javier Milei es el primer postulante para presidente del partido Liberal en ganar las elecciones siendo esta su primera postulación. Hemos sido testigos de un hecho que quedará para la historia de la politica argentina, muchos lo llamaron "voto de bronca" debido a una suposición del pensamiento en común de la mayoría de los que votaron a Milei el cual es la íra contra el partido contrario y la necesidad de un cambio que pueda salvar al pais.
                </p>
                <p>Pese a los presuntos intentos de fraude de parte de diversos fiscales de mesa no han podido contra la oposición, varios videos se viralizaron con rapides en redes sociales donde se puede ver como es que supuestos fiscales de mesa y gente común rompen boletas de Milei. Fué rapido el rechazo de las personas que visualizaban dichos videos, los comentarios acerca de lo visto no eran del todo agradables. </p>
                </div>
             </article>
             <hr ->
-            <article>
-               <h2>LAS PROPUESTAS PRINCIPALES QUE EL NUEVO PRESIDENTE PROPONE PARA ESTE 2024</h2>
-               <div>
+            <article class="separacion">
+               <h2 class="title">LAS PROPUESTAS PRINCIPALES QUE EL PRESIDENTE PROPONE PARA ESTE 2024</h2>
+               <div class="parrafos">
                <p>En varias notas y redes sociales el ya electo presidente Javier Milei, ha dejado bien en claro cuales serán sus principales propuestas para un giro radical en Argentina, muchos de los Argentinos estan de acuerdo y varios no logran coomprender con claridad.</p>
                <p>Milei nos ha hablado de:</p>
                <ul>
+                  <div class="items"> 
                   <li>La dolarización de la economía, la propuesta estrella de Milei criticada por más de 200 economistas</li>
                   <li>La eliminación del Banco Central</li>
                   <li>La “motosierra” de Milei: recorte del gasto público, reducción de ministerios y privatizaciones</li>
@@ -38,6 +49,7 @@
                   <li>La posible ruptura de las relaciones diplomáticas con China y Brasil</li>
                   <li>La libre venta de órganos</li>
                   <li>El sistema de voucher educativos</li>
+               </div>
                </ul>
                </div>
             </article>
@@ -45,19 +57,22 @@
       </main>
       <hr ->
       <footer>
-      <div>
+      <div class="parrafos">
       <p>Desde ya les doy las gracias por leer esta breve nota acerca del Presidente de la Nación Argentina. A continuación les dejo unos enlaces a información mas reciente sobre Milei y sus accionares.</p>
       </div>
-   <div>  
-      <a href="https://tn.com.ar/politica/2024/04/14/milei-vuelve-al-pais-y-reune-a-todo-su-gabinete-en-un-comite-de-crisis-para-analizar-la-situacion-en-israel/">Milei se reunirá con el gabinete para analizar la situación en Israel</a> 
+      <div class="items"> 
+      <div class="links">
+      <ol>
+      <li> <a href="https://tn.com.ar/politica/2024/04/14/milei-vuelve-al-pais-y-reune-a-todo-su-gabinete-en-un-comite-de-crisis-para-analizar-la-situacion-en-israel/">Milei se reunirá con el gabinete para analizar la situación en Israel</a> </li>
       </div> 
-      <div> 
-      <a href="https://tn.com.ar/politica/2024/04/14/de-las-reuniones-con-musk-por-el-litio-a-su-viaje-con-empresarios-a-bariloche-milei-busca-grandes-inversiones/">Milei busca grandes inversiones</a> 
+      <div class="links"> 
+      <li> <a href="https://tn.com.ar/politica/2024/04/14/de-las-reuniones-con-musk-por-el-litio-a-su-viaje-con-empresarios-a-bariloche-milei-busca-grandes-inversiones/">Milei busca grandes inversiones</a> </li>
    </div>
-   <div> 
-      <a href="https://tn.com.ar/show/2024/04/12/javier-milei-anuncio-su-separacion-de-fatima-florez-las-razones-de-la-decision/">Javier Milei anunció que terminó su relación con Fátima Florez</a> 
+   <div class="links"> 
+      <li> <a href="https://tn.com.ar/show/2024/04/12/javier-milei-anuncio-su-separacion-de-fatima-florez-las-razones-de-la-decision/">Javier Milei anunció que terminó su relación con Fátima Florez</a> </li>
+   </div>
+     </ol>
    </div>
    </footer>
-
    </body>
 </html>
